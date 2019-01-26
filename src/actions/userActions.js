@@ -7,3 +7,5 @@ const MESSAGE_ERROR = 'MESSAGE_ERROR';
 export function testData(data) {
     return { type:'MESSAGE_SUCCESS', data}
 }
+
+// comment
