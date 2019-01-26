@@ -7,9 +7,3 @@ const MESSAGE_ERROR = 'MESSAGE_ERROR';
 export function testData(data) {
     return { type:'MESSAGE_SUCCESS', data}
 }
-
-export const getDogStuff = () => {
-  fetch(`https://dog.ceo/api/breeds/image/random`)
-  .then(resp => resp.json())
-  .then(console.log());
-}
