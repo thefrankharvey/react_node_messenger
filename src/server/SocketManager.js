@@ -1,5 +1,5 @@
-const io = require('./index.js').io
+const io = require("./index.js").io;
 
-module.exports = (socket) => {
+module.exports = socket => {
   console.log(`Socket id: ${socket.id}`);
-}
+};
